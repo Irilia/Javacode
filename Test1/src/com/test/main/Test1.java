@@ -5,9 +5,11 @@ import com.test.code.MyLinkedImpl;
 public class Test1 {
     public static void main(String[] args) {
         MyLinkedImpl myLinked = new MyLinkedImpl();
-        for (int i = 0; i < 10; i++) {
+
+        /*for (int i = 0; i < 10; i++) {
             myLinked.add(i,i);
-        }
+        }*/
+        myLinked.add(0,15);
         myLinked.display();
         myLinked.add(11,11);
         myLinked.display();

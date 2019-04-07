@@ -187,7 +187,7 @@ public class MyLinkedImpl implements ILinked {
     @Override
     public void display() {
         for (int i = 0; i < this.usedSize; i++) {
-            System.out.print(this.elemData[i] + " ");
+            System.out.print(this.elemData + " ");
         }
         System.out.println();
     }
@@ -199,7 +199,7 @@ public class MyLinkedImpl implements ILinked {
     @Override
     public void clear() {
         for (int i = 0; i < this.usedSize; i++) {
-            this.elemData[i] = null;
+            this.elemData = null;
         }
         this.usedSize = 0;
     }
