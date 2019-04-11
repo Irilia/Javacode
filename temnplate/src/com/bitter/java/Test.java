@@ -5,6 +5,9 @@ class MyClass<T> {
     public T getT(){
         return t;
     }
+    public void setT(T t){
+        this.t = t;
+    }
 
 }
 
@@ -53,13 +56,15 @@ class MyClass<T>{
 }*/
 public class Test {
     //fun只能接收String类型的myclass
-    public static void fun(MyClass<Integer> myClass){
+    /*public static void fun(MyClass<Integer> myClass){
 
-    }
-    public static void fun(MyClass<String> myClass) {
+    }*/
+    public static void fun(MyClass<? super String> myClass) {
+        myClass.setT("hello world");
         System.out.println(myClass.getT());
     }
     public static void main(String[] args) {
+        //Object obj = new String("hello world");
         MyClass<String> myClass = new MyClass<>();
         fun(myClass);
 
