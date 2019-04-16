@@ -1,7 +1,7 @@
 package com.test.main;
 
 public class NewTest {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         class Solution {
             public ListNode reverseList(ListNode head) {
                 ListNode prev = null;
@@ -19,5 +19,5 @@ public class NewTest {
                 return reverseHead;
             }
         }
-    }
+    }*/
 }
