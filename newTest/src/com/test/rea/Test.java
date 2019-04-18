@@ -2,6 +2,7 @@ package com.test.rea;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.util.function.Function;
 
 class Animal{
     private Double weight;
@@ -38,13 +39,17 @@ class Person extends Animal{
 
 public class Test {
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
-        Class<Person> cls = Person.class;
+        Function<Integer,String> function = (i)-> {
+            return String.valueOf(i);
+        };
+      //计算char数组中A的个数
+       /* Class<Person> cls = Person.class;
         Constructor constructor = cls.getDeclaredConstructor(Integer.class,String.class);
         //Person per = cls.newInstance();
         //动态破坏封装,仅在一次jvm进程中
         constructor.setAccessible(true);
         Person per = (Person) constructor.newInstance(18,"me");
-        System.out.println(per);
+        System.out.println(per);*/
 
         /*Constructor[] constructors = cls.getDeclaredConstructors();
         for (Constructor constructor : constructors) {
