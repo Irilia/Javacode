@@ -35,14 +35,37 @@ public class MyBracketImpl implements IBracket {
     }
 
     public boolean isValid(String s) {
-        MyBracketImpl myBracket = new MyBracketImpl();
-        if(empty()){
-            return true;
-        }
-        this.elem = s.toCharArray();
-        for (int i = 0; i < this.elem.length; i++) {
-            if(elem[i] == '('){
-        }
+        char[] stack = new char[s.length()];
+        int top = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(' ||
+                    s.charAt(i) == '{' ||
+                    s.charAt(i) == '[') {
+                stack[top++] = s.charAt(i);
+            } else {
+                if (top == 0) {
+                    System.out.println("右括号大于左括号");
+                    return false;
+                }
+                //取出栈顶元素
+                char ch = stack[top - 1];
+                if (ch == '(' && s.charAt(i) == ')' || ch == '{' && s.charAt(i) == '}' || ch == '[' && s.charAt(i) == ']') {
+                    --top;
+                } else {
+                    System.out.println("右括号匹配的顺序不正确");
+                    return false;
+                }
+            }
 
+        }
+        if (top > 0) {
+            System.out.println("左括号大于右括号");
+            return false;
+        }
+        return true;
     }
+
+
+
+
 }
