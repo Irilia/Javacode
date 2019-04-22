@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d1c511-731d-4f43-9107-2f33d3eab2fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyStack/src/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyStack/src/MyCircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyStack/src/TestDemol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyStack/src/TestMyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyStack/src/TestMyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/MyQueueImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/MyQueueImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/MyStackImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/MyStackImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/src/MyBracketImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/src/MyBracketImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TESTMethod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TESTMethod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TESTMethod/src/TestMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TESTMethod/src/TestMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestEmp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEmp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +51,9 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javase-0411/src/com/bittech/TestPerson.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-285" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -101,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -140,10 +127,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyStack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TESTMethod" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,9 +159,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -236,7 +224,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javase-0411/src/com/bittech/TestPerson.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
     </entry>
   </component>
 </project>
