@@ -1,5 +1,4 @@
-package com.bittech.sample;
-
+package com.bit.main;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Date;
@@ -53,92 +52,19 @@ public class BeanUtils {
      * 选择第一种
      */
     public static void copy(Object source, Object target) {
-        /*Source source1 = new Source();
-        source1.setName("Jack");
-        source1.setAddress("xian");
-        source1.setAge(22);
-        source1.setBirthday("2002-12-15");*/
         //第一步，参数校验
         if(source == null || target == null){
-            throw new
+
         }
         //2.获取source和target对象的类型的Class对象
-        Class sourceClass = source1.getClass();
+        Class sourceClass = source.getClass();
         Class targetClass = target.getClass();
         //3。获取sourceClass和targetClass的属性
-        Field[] sourceField = sourceClass.getDeclaredFields();
-        Field[] targetFteld = targetClass.getDeclaredFields();
+        //Field[] sourceField = sourceClass.getDeclaredFields();
+        //Field[] targetFteld = targetClass.getDeclaredFields();
         //4.进行属性赋值
 
 
     }
 }
 
-class Source{
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
-
-    private String name;
-    private String address;
-    private Integer age;
-    private Date birthday;
-}
-
-class Target{
-    private String name;
-    private String address;
-    private String email;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-}
