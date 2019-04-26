@@ -30,14 +30,12 @@ public class CallNumber {
                 status[index] = false;
                 counter++;
             }
-            for (int i = 0; i < status.length; i++) {
-                if(status[i]){
-                    return i+1;
-                }
-            }
-
         }
-
+        for (int i = 0; i < status.length; i++) {
+            if(status[i]){
+                return i+1;
+            }
+        }
         return -1;
     }
 }

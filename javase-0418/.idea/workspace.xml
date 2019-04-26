@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d1c511-731d-4f43-9107-2f33d3eab2fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/TestBeanutils.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/CallNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/RepeatChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/TestBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home_works/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home_works/.idea/home_works.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home_works/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home_works/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home_works/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="08d1c511-731d-4f43-9107-2f33d3eab2fb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/javase-0411/src/com/bittech/TestPerson.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -79,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../BeanUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="143" selection-end-line="143" />
+            <state relative-caret-position="388">
+              <caret line="113" column="1" lean-forward="true" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -119,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,11 +138,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BeanUtils.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestBeanutils" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,9 +170,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,6 +226,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javase-0411/src/com/bittech/TestPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javase-0411/src/com/bittech/TestColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -254,17 +240,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javase-0411/src/com/bittech/TestPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../BeanUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="143" selection-end-line="143" />
+        <state relative-caret-position="388">
+          <caret line="113" column="1" lean-forward="true" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
         </state>
       </provider>
     </entry>

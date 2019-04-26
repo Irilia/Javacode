@@ -1,11 +1,12 @@
 package com.bit.main;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Date;
 
 public class BeanUtils {
 
-    public static void setXxx(Object object, String attributeName, Object attributeValue) {
+   /* public static void setXxx(Object object, String attributeName, Object attributeValue) {
         Class classz = object.getClass();
         String setMethodName = "set" + attributeName.substring(0, 1).toUpperCase()
                 + (attributeName.length() > 1 ? attributeName.substring(1) : "");
@@ -20,7 +21,7 @@ public class BeanUtils {
             e.printStackTrace();
         }
 
-    }
+    }*/
 
 
     /**
@@ -54,17 +55,32 @@ public class BeanUtils {
     public static void copy(Object source, Object target) {
         //第一步，参数校验
         if(source == null || target == null){
-
+            throw new UnsupportedOperationException("Unsupported Null");
         }
+
         //2.获取source和target对象的类型的Class对象
-        Class sourceClass = source.getClass();
+        Class soutceClass = source.getClass();
         Class targetClass = target.getClass();
         //3。获取sourceClass和targetClass的属性
-        //Field[] sourceField = sourceClass.getDeclaredFields();
-        //Field[] targetFteld = targetClass.getDeclaredFields();
+        Field[] soutceFields = soutceClass.getDeclaredFields();
+        Field[] targetFields = targetClass.getDeclaredFields();
         //4.进行属性赋值
-
-
+        for (Field soutceField :soutceFields) {
+            for (Field targetField:targetFields) {
+                //名称类型都一样才能拷贝
+                if(soutceField.getName().equals(targetField.getName())
+                        && soutceField.getType().equals(targetField.getType())) {
+                    //赋值，反射机制用Accessible使属性可改
+                    try {
+                        Object value = soutceField.get(source);
+                        targetField.set(target,value);
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
+                    }
+                    break;
+                }
+            }
+        }
     }
 }
 
