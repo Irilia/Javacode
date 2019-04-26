@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e876893-dc08-4e28-b0e3-d0be18a2ee1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../home_works/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bit/main/TestInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bit/main/TestInnerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bit/main/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bit/main/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bit/main/CallNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bit/main/CallNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bit/main/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bit/main/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bit/main/RepeatChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bit/main/RepeatChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../home_works/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../home_works/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javase-0418/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javase-0418/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bit/main/HappyNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+            <state relative-caret-position="548">
+              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,10 +59,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bit/main/BeanUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+            <state relative-caret-position="258">
+              <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bit/main/TestInner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bit/main/TestInnerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#265#266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,9 +113,11 @@
         <option value="$PROJECT_DIR$/src/com/bit/main/TestBeanUtils.java" />
         <option value="$PROJECT_DIR$/src/HappyNumber.java" />
         <option value="$PROJECT_DIR$/src/com/bit/main/CallNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/bit/main/BeanUtils.java" />
         <option value="$PROJECT_DIR$/src/com/bit/main/RepeatChar.java" />
         <option value="$PROJECT_DIR$/src/com/bit/main/HappyNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/bit/main/BeanUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/bit/main/TestInner.java" />
+        <option value="$PROJECT_DIR$/src/com/bit/main/TestInnerClass.java" />
       </list>
     </option>
   </component>
@@ -149,7 +175,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556263216574" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556268488446" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../home_works" />
   </component>
   <component name="RunDashboard">
@@ -164,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RepeatChar">
+  <component name="RunManager" selected="Application.TestInner">
     <configuration name="CallNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bit.main.CallNumber" />
       <module name="TestBeanutils" />
@@ -191,8 +217,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bit.main.TestInner" />
+      <module name="TestBeanutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bit.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestInner" />
         <item itemvalue="Application.RepeatChar" />
         <item itemvalue="Application.CallNumber" />
       </list>
@@ -251,23 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bit/main/TestBeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bit/main/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bit/main/CallNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -284,10 +307,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bit/main/HappyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        <state relative-caret-position="548">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bit/main/TestBeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bit/main/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bit/main/TestInner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bit/main/TestInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
           </folding>
         </state>
       </provider>

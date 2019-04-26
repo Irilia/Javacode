@@ -71,6 +71,8 @@ public class BeanUtils {
                 if(soutceField.getName().equals(targetField.getName())
                         && soutceField.getType().equals(targetField.getType())) {
                     //赋值，反射机制用Accessible使属性可改
+                    soutceField.setAccessible(true);
+                    targetField.setAccessible(true);
                     try {
                         Object value = soutceField.get(source);
                         targetField.set(target,value);

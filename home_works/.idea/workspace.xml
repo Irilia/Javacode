@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0729e44-e380-4bf7-950d-1efa327ce63a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/TestInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/TestInnerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestBeanutils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/CallNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/CallNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/RepeatChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBeanutils/src/com/bit/main/RepeatChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javase-0418/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javase-0418/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home_works/src/com/bittech/works/BeanUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="328">
+              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -51,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home_works/src/com/bittech/works/HappyNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -140,7 +137,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556263216613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556268385038" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -210,13 +207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home_works/src/com/bittech/works/BeanUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home_works/src/com/bittech/works/RepeatChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -226,8 +216,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home_works/src/com/bittech/works/HappyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_works/src/com/bittech/works/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
         </state>
       </provider>
     </entry>
