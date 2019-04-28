@@ -30,7 +30,6 @@ public class MyStackImpl implements IMyStack {
         if(empty()){
             throw new UnsupportedOperationException("栈是空的");
         }
-        //int num = this.elem[--this.top];
         int num = this.elem[this.top-1];
         --this.top;
         this.usedSize--;
@@ -42,7 +41,6 @@ public class MyStackImpl implements IMyStack {
         if(empty()){
             throw new UnsupportedOperationException("栈是空的");
         }
-        //int num = this.elem[--this.top];
         return this.elem[this.top-1];
     }
 
