@@ -49,12 +49,15 @@ public class TestDemol {
 
     }
     public static void main(String[] args) {
-        int[] array = new int[10000];
+        /*int[] array = new int[10000];
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10000)+1;
-        }
-        insertSort(array);
+        }*/
+        int[] array = {10,6,7,1,3,9,4,2};
+
+        mergeSort(array,0,array.length-1);
+        System.out.println("=======================");
         System.out.println(Arrays.toString(array));
     }
     //选择排序
@@ -81,7 +84,6 @@ public class TestDemol {
     public static void adjust(int[] array,int start,int end){
         int tmp = array[start];
         for (int i = start; i <= end ; ) {
-            if()
         }
 
     }
@@ -167,5 +169,73 @@ public class TestDemol {
         int tmp = array[low];
         array[low] = array[high];
         array[high] = tmp;
+    }
+
+    //非递归快排
+    //使用栈来存放数对，判断par左边和右边是否有两个数据，如果有就把下一次的low和high放进栈里
+    public static void quickSort1(int[] array){
+        int[] stack = new int[array.length*2];
+        int top = 0;
+        int low = 0;
+        int high  = array.length-1;
+        int par = partion(array,low,high);
+        while(top > 0){
+            high = --top;
+            low = --top;
+            par = partion(array,low,high);
+            //左边有两个数据元素以上
+            if(par>low+1){
+                stack[top++] = low;
+                stack[top++] = par-1;
+            }
+            //右边有两个数据元素以上
+            if(par<high-1){
+                stack[top++] = par+1;
+                stack[top++] = high;
+            }
+            //判断栈顶是否为空，如果不为空，取出栈顶的两个元素，然后接着调用partion（）；
+            //接着上面的步骤继续执行，一直到栈为空的时候；
+        }
+
+    }
+
+    public static void merge(int[] array,int start,int end,int mid){
+        int[] tmpArr = new int[array.length];
+        int i = start;
+        int tmpIndex = start;//指的是tmpArr的下标；
+        int start2 = mid+1;//第二个归并段的开始
+        while(start <= mid && start2 <= end){
+            if(array[start] <= array[start2]){
+                tmpArr[tmpIndex++] = array[start++];
+            } else{
+                tmpArr[tmpIndex++] = array[start2++];
+            }
+        }
+        while(start <= mid) {
+            tmpArr[tmpIndex++] = array[start++];
+        }
+        while(start2 <= end) {
+            tmpArr[tmpIndex++] = array[start2++];
+        }
+        while(i <= end){
+            array[i] = tmpArr[i];
+            i++;
+        }
+        System.out.println(Arrays.toString(array));
+    }
+
+    //归并排序-递归
+    public static void mergeSort(int[] array,int start,int end){
+        //终止条件
+        if(start == end){
+            return;
+        }
+        int mid = (start+end)>>>1;
+        //递归左边
+        mergeSort(array,start,mid);
+        //递归右边
+        mergeSort(array,mid+1,end);
+        //合并函数
+        merge(array,start,end,mid);
     }
 }
