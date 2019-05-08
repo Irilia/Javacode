@@ -55,10 +55,14 @@ public class TestDemol {
             array[i] = random.nextInt(10000)+1;
         }*/
         int[] array = {10,6,7,1,3,9,4,2};
+        insertSort(array);
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
 
-        mergeSort(array,0,array.length-1);
+        /*mergeSort(array,0,array.length-1);
         System.out.println("=======================");
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array));*/
     }
     //选择排序
     //每一次从待排序的数据元素中选出最小（或最大）的一个元素，

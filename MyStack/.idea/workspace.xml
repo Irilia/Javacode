@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76918416-ce75-4114-bbb5-3084bdcb3963" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IOData/TestFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestDemol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDemol.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestDemol.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+            <state relative-caret-position="627">
+              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IOData/TestFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="105" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
+            <state relative-caret-position="171">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/MyCircularQueue.java" />
         <option value="$PROJECT_DIR$/src/MyStackImpl.java" />
-        <option value="$PROJECT_DIR$/src/TestDemol.java" />
         <option value="$PROJECT_DIR$/src/IOData/TestFile.java" />
+        <option value="$PROJECT_DIR$/src/TestDemol.java" />
       </list>
     </option>
   </component>
@@ -177,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557235680699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557322941448" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -192,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestFile">
+  <component name="RunManager" selected="Application.TestDemol">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="MyStack" />
@@ -222,8 +222,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestFile" />
         <item itemvalue="Application.TestDemol" />
+        <item itemvalue="Application.TestFile" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -243,8 +243,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="20" width="1400" height="824" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1676602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17213115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -253,8 +254,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48652694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48652694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39820358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -347,6 +348,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOData/TestFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../20190331A/20190331A/src/com/bit/dao/MySingleListImpl.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -370,18 +381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestDemol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IOData/TestFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="105" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
+        <state relative-caret-position="627">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
