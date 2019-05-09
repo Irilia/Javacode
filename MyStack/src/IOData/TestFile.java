@@ -56,4 +56,17 @@ public class TestFile {
 
     }
 
+    private static void listAllFiles1(File file){
+        if(file != null){
+            if(file.isDirectory()){
+                File[] files = file.listFiles();
+                for(File temp: files){
+                    listAllFiles(temp);
+                }
+            }else{
+                System.out.println(file);
+            }
+        }
+    }
+
 }
