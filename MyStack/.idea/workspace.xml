@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76918416-ce75-4114-bbb5-3084bdcb3963" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/twelve/ISequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twelve/happyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twelve/TestRepeatChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestBeanutils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,14 +24,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/twelve/happyNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="292">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/twelve/TestRepeatChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +83,7 @@
         <option value="$PROJECT_DIR$/src/IOData/SimpleMessage.java" />
         <option value="$PROJECT_DIR$/src/twelve/ISequence.java" />
         <option value="$PROJECT_DIR$/src/twelve/happyNumber.java" />
+        <option value="$PROJECT_DIR$/src/twelve/TestRepeatChar.java" />
       </list>
     </option>
   </component>
@@ -88,6 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,12 +131,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557671021831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557762505967" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestBeanutils" />
   </component>
   <component name="RunDashboard">
@@ -136,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.happyNumber">
+  <component name="RunManager" selected="Application.TestRepeatChar">
     <configuration name="SimpleMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IOData.SimpleMessage" />
       <module name="MyStack" />
@@ -157,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IOData.TestFile" />
+    <configuration name="TestIOInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOData.TestIOInputStream" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
@@ -170,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIOInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IOData.TestIOInputStream" />
+    <configuration name="TestRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twelve.TestRepeatChar" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IOData.*" />
+          <option name="PATTERN" value="twelve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRepeatChar" />
         <item itemvalue="Application.happyNumber" />
         <item itemvalue="Application.SimpleMessage" />
         <item itemvalue="Application.TestIOInputStream" />
         <item itemvalue="Application.TestDemol" />
-        <item itemvalue="Application.TestFile" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +236,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16286863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16487935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,11 +400,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/twelve/happyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="292">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twelve/TestRepeatChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
           </folding>
         </state>
       </provider>
