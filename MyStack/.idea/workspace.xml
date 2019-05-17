@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76918416-ce75-4114-bbb5-3084bdcb3963" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IOData/TestByteArrayInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IOData/TestInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IOData/TestWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twelve/TestCallNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOData/TestPrintStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twelve/TestRepeatChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twelve/TestRepeatChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TestBeanutils/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBeanutils/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/IOData/TestInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <element signature="method#code1#0;class#TestInputStream#0" />
               </folding>
@@ -35,20 +31,32 @@
         <entry file="file://$PROJECT_DIR$/src/IOData/TestWriter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IOData/TestByteArrayInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IOData/TestPrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,12 +114,13 @@
         <option value="$PROJECT_DIR$/src/IOData/TestInputStream.java" />
         <option value="$PROJECT_DIR$/src/IOData/TestWriter.java" />
         <option value="$PROJECT_DIR$/src/IOData/TestByteArrayInputStream.java" />
+        <option value="$PROJECT_DIR$/src/IOData/TestPrintStream.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="1" />
     <option name="width" value="1750" />
     <option name="height" value="1030" />
   </component>
@@ -143,12 +152,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="IOData" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyStack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="twelve" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -156,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557840632024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558094714907" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -171,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestByteArrayInputStream">
+  <component name="RunManager" selected="Application.TestPrintStream">
     <configuration name="TestByteArrayInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IOData.TestByteArrayInputStream" />
       <module name="MyStack" />
@@ -185,12 +188,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCallNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twelve.TestCallNumber" />
+    <configuration name="TestInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOData.TestInputStream" />
       <module name="MyStack" />
+      <option name="VM_PARAMETERS" value="C:\Users\Rachel\Desktop\timgUAO4CAJ2.jpg C:\Users\Rachel\Desktop\timgUAO4CAJ1.jpg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twelve.*" />
+          <option name="PATTERN" value="IOData.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,10 +202,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IOData.TestInputStream" />
+    <configuration name="TestPrintStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOData.TestPrintStream" />
       <module name="MyStack" />
-      <option name="VM_PARAMETERS" value="C:\Users\Rachel\Desktop\timgUAO4CAJ2.jpg C:\Users\Rachel\Desktop\timgUAO4CAJ1.jpg" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IOData.*" />
@@ -240,19 +243,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestCallNumber" />
       <item itemvalue="Application.TestRepeatChar" />
       <item itemvalue="Application.TestInputStream" />
       <item itemvalue="Application.TestWriter" />
       <item itemvalue="Application.TestByteArrayInputStream" />
+      <item itemvalue="Application.TestPrintStream" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPrintStream" />
         <item itemvalue="Application.TestByteArrayInputStream" />
         <item itemvalue="Application.TestWriter" />
         <item itemvalue="Application.TestInputStream" />
         <item itemvalue="Application.TestRepeatChar" />
-        <item itemvalue="Application.TestCallNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -270,10 +273,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-5" y="1" width="1400" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16689008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18777943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,7 +285,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48614958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48502994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39820358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,6 +460,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOData/TestByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOData/TestWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IOData/TestInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="method#code1#0;class#TestInputStream#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IOData/TestIOInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -464,31 +495,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IOData/TestInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/IOData/TestPrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
-            <element signature="method#code1#0;class#TestInputStream#0" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IOData/TestWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IOData/TestByteArrayInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
         </state>
       </provider>
     </entry>
