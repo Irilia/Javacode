@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>css选择器</title>
+		<style>
+			/*标签选择器*/
+			/*div{
+				font-size: 26px;
+				color:#F00;
+			}*/
+			
+			/*class选择器：需要在标签中指定一个class属性*/
+			/*.c1{
+				font-size:30px;
+				color:#00F;
+			}*/
+			
+			/*id选择器*/
+			/*#d1{
+				font-size: 36px;
+				color: #0F0;
+			}*/
+			
+			/*并集选择器*/
+			/*.c1,#d1{
+				font-size: 35px;
+				color: #0F0;
+			}*/
+			/*交集（子元素）选择器*/
+			/*.c1 span{
+				font-size: 30px;
+				color: #F00;
+			}*/
+			/*通配符选择器*/
+			*{
+				font-size: 30px;
+				color: #c90;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="c1" ><span>span标签</span>div1</div>
+		<div id="d1">div2</div>
+		<div>div3</div>
+		<span>span标签</span>
+	</body>
+</html>
