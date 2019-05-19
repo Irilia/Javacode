@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>图片的显式和隐藏</title>
+		<script type="text/javascript">
+		//2)编写事件监听器：函数
+		function show(){
+			//js中的DOM操作
+			//获取图像标签img对象
+			var img = document.getElementById("img1");
+			//标签对象可以操作属性
+			img.style.display="block";
+		}
+		
+		function hide(){
+			var img = document.getElementById("img1");
+			img.style.display="none";
+		}
+		</script>
+	</head>
+	<body>
+		<img src="img/timgUAO4CAJ2.jpg" width="100%" height="300px"
+			style="display: none;" id="img1">
+		<br/>
+		<!--1)事件源-->
+		<input type="button" value="显式" onclick="show()">
+		<!--3)注册监听器-->
+		<input type="button" value="隐藏" onclick="hide()">
+	</body>
+</html>
