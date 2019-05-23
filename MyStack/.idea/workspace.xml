@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76918416-ce75-4114-bbb5-3084bdcb3963" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../前端项目/Css/03_伪类选择器.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daydata/TestTwopalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daydata/TestTwopalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daydata/TestWaterBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daydata/TestWaterBottle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/daydata/TestWaterBottle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="133">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -36,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daydata/TestTwopalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -95,17 +94,17 @@
         <option value="$PROJECT_DIR$/src/daydata/Alpha.java" />
         <option value="$PROJECT_DIR$/src/daydata/Myclass.java" />
         <option value="$PROJECT_DIR$/src/daydata/Test2.java" />
-        <option value="$PROJECT_DIR$/src/daydata/TestWaterBottle.java" />
         <option value="$PROJECT_DIR$/src/TestThread/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/TestThread/CallableTest.java" />
         <option value="$PROJECT_DIR$/src/daydata/TestTwopalindrome.java" />
+        <option value="$PROJECT_DIR$/src/daydata/TestWaterBottle.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1089" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -115,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,11 +136,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558540779839" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558610302921" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -157,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestTwopalindrome">
+  <component name="RunManager" selected="Application.TestWaterBottle">
     <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestThread.CallableTest" />
       <module name="MyStack" />
@@ -232,10 +231,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestWaterBottle" />
         <item itemvalue="Application.TestTwopalindrome" />
         <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.TestWaterBottle" />
         <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
@@ -257,7 +256,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.097855225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,7 +265,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4695291" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46848136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39750692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/daydata/TestTwopalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/daydata/TestKth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -571,10 +563,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/daydata/TestTwopalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/daydata/TestWaterBottle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
