@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>伪类选择器</title>
+		<style>
+			/*link状态*/
+			a:link{
+				font-size: 20px;
+				color: #FF0000;
+			}
+			/*hover状态*/
+			a:hover{
+				font-size: 30px;
+				color: #FF00FF;
+				/*去掉下划线,文本修饰*/
+				text-decoration: none;
+			}
+			/*active状态*/
+			a:active{
+				font-size: 32px;
+				color: #0000FF;
+				/*加上下划线*/
+				text-decoration: underline;
+			}
+			
+			/*visited状态*/
+			a:visited{
+				font-size: 35px;
+				color: #00FF00;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="02_css选择器.html">超链接</a>
+	</body>
+</html>
