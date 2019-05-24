@@ -34,34 +34,3 @@ public class TestWaterBottle {
 
     }
 }
-/*
-import java.util.Scanner;
-public class TestWaterBottle{
-    public static boolean isHuiWen(String ss) {
-        int l = 0;
-        int r = ss.length()-1;
-        while(l<r){
-            if(ss.charAt(l) == ss.charAt(r)) {
-                r--;
-                l++;
-            }else {
-                return false;
-            }
-        }
-        return true;
-    }
-    public static void main(String[] args) {
-        Scanner sn = new Scanner(System.in);
-        String str1 = sn.nextLine();
-        String str2 = sn.nextLine();
-        int count = 0;
-        for(int i = 0;i <= str1.length();i++) {
-            StringBuilder sb = new StringBuilder(str1);
-            sb.insert(i,str2);
-            if(isHuiWen(sb.toString())) {
-                count++;
-            }
-        }
-        System.out.println(count);
-    }
-}*/

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76918416-ce75-4114-bbb5-3084bdcb3963" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TestThread/SellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/daydata/Derived.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/daydata/TestWaterBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daydata/TestWaterBottle.java" afterDir="false" />
     </list>
@@ -15,28 +17,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daydata/TestKth.java">
+        <entry file="file://$PROJECT_DIR$/src/daydata/Derived.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/daydata/TestWaterBottle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="15" column="3" selection-start-line="2" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daydata/TestTwopalindrome.java">
+        <entry file="file://$PROJECT_DIR$/src/TestThread/CallableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="83">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestThread/SellTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestThread/ThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,13 +116,15 @@
         <option value="$PROJECT_DIR$/src/TestThread/CallableTest.java" />
         <option value="$PROJECT_DIR$/src/daydata/TestTwopalindrome.java" />
         <option value="$PROJECT_DIR$/src/daydata/TestWaterBottle.java" />
+        <option value="$PROJECT_DIR$/src/daydata/Derived.java" />
+        <option value="$PROJECT_DIR$/src/TestThread/SellTicket.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -114,6 +134,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,16 +154,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="daydata" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyStack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="daydata" type="462c0819:PsiDirectoryNode" />
+              <item name="Alpha.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="MyStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyStack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyStack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestThread" type="462c0819:PsiDirectoryNode" />
+              <item name="CallableTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="MyStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyStack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TestThread" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558610302921" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558703340722" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -156,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestWaterBottle">
+  <component name="RunManager" selected="Application.SellTicket">
     <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestThread.CallableTest" />
       <module name="MyStack" />
@@ -170,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daydata.Test2" />
+    <configuration name="SellTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestThread.SellTicket" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daydata.*" />
+          <option name="PATTERN" value="TestThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,19 +270,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test2" />
       <item itemvalue="Application.TestWaterBottle" />
       <item itemvalue="Application.ThreadTest" />
       <item itemvalue="Application.CallableTest" />
       <item itemvalue="Application.TestTwopalindrome" />
+      <item itemvalue="Application.SellTicket" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SellTicket" />
+        <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.TestWaterBottle" />
         <item itemvalue="Application.TestTwopalindrome" />
-        <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +303,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.097855225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14343163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -265,7 +312,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46848136" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46814406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39750692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,24 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestThread/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestThread/CallableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/daydata/Myclass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -563,6 +592,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/daydata/TestWaterBottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daydata/Derived.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="3" selection-start-line="2" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestThread/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/daydata/TestTwopalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -570,10 +624,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/daydata/TestWaterBottle.java">
+    <entry file="file://$PROJECT_DIR$/src/TestThread/CallableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="83">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestThread/SellTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
