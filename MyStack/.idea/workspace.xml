@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76918416-ce75-4114-bbb5-3084bdcb3963" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/daydata/AppearForHalfOfTheArrayLenght.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/daydata/ThreeChildCandy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/daydata/AppearForHalfOfTheArrayLenght.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="589">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -190,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -220,11 +220,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558961921929" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559042046123" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -239,9 +238,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreeChildCandy">
-    <configuration name="BuyApple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daydata.BuyApple" />
+  <component name="RunManager" selected="Application.AppearForHalfOfTheArrayLenght">
+    <configuration name="AppearForHalfOfTheArrayLenght" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="daydata.AppearForHalfOfTheArrayLenght" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
@@ -306,19 +305,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BuyApple" />
       <item itemvalue="Application.DeleteTwoSameString" />
       <item itemvalue="Application.MagicBag" />
-      <item itemvalue="Application.TwoStacksToQueue" />
       <item itemvalue="Application.ThreeChildCandy" />
+      <item itemvalue="Application.TwoStacksToQueue" />
+      <item itemvalue="Application.AppearForHalfOfTheArrayLenght" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppearForHalfOfTheArrayLenght" />
         <item itemvalue="Application.ThreeChildCandy" />
         <item itemvalue="Application.TwoStacksToQueue" />
         <item itemvalue="Application.MagicBag" />
         <item itemvalue="Application.DeleteTwoSameString" />
-        <item itemvalue="Application.BuyApple" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +338,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.15147454" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861497" visible="true" weight="0.15549597" />
       <window_info id="Structure" order="1" sideWeight="0.50138503" side_tool="true" weight="0.14544237" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -680,6 +679,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/daydata/TwoStacksToQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daydata/ThreeChildCandy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyStackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -698,24 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/daydata/TwoStacksToQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daydata/ThreeChildCandy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/daydata/AppearForHalfOfTheArrayLenght.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="589">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
