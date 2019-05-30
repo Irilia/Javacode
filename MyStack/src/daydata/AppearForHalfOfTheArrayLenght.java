@@ -15,11 +15,12 @@ public class AppearForHalfOfTheArrayLenght {
             }
             int num = arr[0];
             int count = 0;
-            for (int j = 1; j < arr.length; j++) {
+            int n = arr.length;
+            for (int j = 1; j < n; j++) {
                 if(arr[j]==num){
                     count++;
-                }else if(count>0){
-                    count--;
+                }else if(count>=n/2){
+                    break;
                 }else{
                     num = arr[j];
                 }
