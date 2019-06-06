@@ -8,7 +8,7 @@ public class TestInnerClass {
 
 class Outer{
     private String message = "Outer的消息";
-    static class Inner{
+    class Inner{
         public void print(){
             System.out.println(Outer.this.message);
         }
