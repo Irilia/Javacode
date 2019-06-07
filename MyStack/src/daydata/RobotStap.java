@@ -3,6 +3,7 @@ package daydata;
 
 public class RobotStap {
     public static void main(String[] args) {
+        System.out.println(Runtime.getRuntime().availableProcessors());
         /*Thread t = new Thread(){
             public void run(){
                 pong();
@@ -11,9 +12,9 @@ public class RobotStap {
         t.run();
         System.out.println("ping");
 */
-        String str1 = "hello";
+        /*String str1 = "hello";
         String str2 = "he"+new String("llo");
-        System.err.println(str1==str2);
+        System.err.println(str1==str2);*/
     }
     /*static void pong(){
         System.out.println("pong");
