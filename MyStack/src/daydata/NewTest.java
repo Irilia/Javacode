@@ -1,7 +1,8 @@
 package daydata;
 
 public class NewTest {
-        public void Mirror(TreeNode root) {
+
+}/*       public void Mirror(TreeNode root) {
 //节点为null 不处理
             if(root == null)
                 return;
@@ -17,5 +18,4 @@ public class NewTest {
                 Mirror(root.left);
             if(root.right != null)
                 Mirror(root.right);
-        }
-}
+        }*/
