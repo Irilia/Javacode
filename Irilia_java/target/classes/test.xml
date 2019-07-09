@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-list>
+    <test id="001">
+        <name>张三</name>
+        <phone>18066530697</phone>
+        <gender>男</gender>
+        <email>zhangsan@qq.com</email>
+        <address>上海</address>
+    </test>>
+    <test id="002">
+        <name>李四</name>
+        <phone>18077690697</phone>
+        <gender>女</gender>
+        <email>lisi@qq.com</email>
+        <address>北京</address>
+    </test>
+</test-list>
