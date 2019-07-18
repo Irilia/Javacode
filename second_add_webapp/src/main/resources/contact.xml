@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--文档声明-->
+<!--描述联系人（可以有多个联系人）
+属性：编号，姓名，性别，电话，邮箱，地址
+-->
+<!--有且只有一个根标签-->
+<contact-list>
+
+    <contact id="001">
+        <name>张三</name>
+        <gender>男</gender>
+        <phone>123456789</phone>
+        <email>zhansan@qq.com</email>
+        <address>西安</address>
+    </contact>
+    <contact id="002">
+        <name>李四</name>
+        <gender>女</gender>
+        <phone>987654321</phone>
+        <email>lisi@qq.com</email>
+        <address>成都</address>
+    </contact>
+    <student></student>
+
+</contact-list>
