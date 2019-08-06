@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--parallel="tests" ：不同的tests标签下的用例可以在不同的线程下去执行，
+相同的test标签下的用例只能在同一个线程下去执行-->
+<!--parallel="classs" ：相同classs标签下的用例在同一个线程下执行-->
+<!--parallel="methods" : 方法级别,所有用例都可以在不同的线程下去执行-->
+<!--thread-count="2": 线程数是两个，代表了最大并发数线程-->
+<!--xml配置这种方式不能指定线程池，只有方法上才能指定线程池-->
+<suite name="thread" parallel="methods" thread-count="2">
+    <test name="demo1">
+        <classes>
+            <class name="multiThread.MultiThreadOnXml"/>
+        </classes>
+
+    </test>
+</suite>
