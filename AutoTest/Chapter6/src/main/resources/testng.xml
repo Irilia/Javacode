@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="我自己的接口测试套件">
+    <test name="这些是测试模块">
+        <classes>
+            <class name="com.irilia.extent.demo.TestMethodsDemo"/>
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </methods>
+        </classes>
+    </test>
+    //监听器
+    <listeners>
+        <listener class-name="com.irilia.extent.demo.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

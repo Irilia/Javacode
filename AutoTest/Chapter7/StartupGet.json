@@ -1,0 +1,12 @@
+[
+  {
+    "description":"模拟一个get请求",
+    "request":{
+      "uri":"/getdemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"这是一个没有参数的get请求"
+    }
+  }
+]
