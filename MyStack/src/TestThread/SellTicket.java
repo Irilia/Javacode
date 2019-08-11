@@ -3,7 +3,7 @@ package TestThread;
 import java.util.concurrent.Callable;
 
 class TicketsSell implements Runnable {
-    private int ticket = 1000;
+    private int ticket = 10000;
 
     @Override
     public void run() {

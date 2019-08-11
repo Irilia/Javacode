@@ -2,25 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f4a5c0-d8af-43c2-909d-fe8921d78e01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../first_maven/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../first_maven/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../first_maven/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../second_add_webapp/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../second_add_webapp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../second_add_webapp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../second_add_webapp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../second_add_webapp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../second_add_webapp/second_add_webapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Irilia_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Irilia_java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Irilia_java/Irilia_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/add_webapp_maven.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java9_xml_tomcat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java9_xml_tomcat/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/BenchMark.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/MainFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/CaseLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/TestDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/annotations/BenchMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/annotations/Measurement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/annotations/WarmUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/cases/SortCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/Dynamic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python3/Python3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python3/Test_Python/Test_Python3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/com.irilia.Test_Python/Test_Python2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/python2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/python_test2/python_test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/Study_Python/HelloWord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/Study_Python/Study_Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/python_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoDBProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDBProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/daydata/DeleteTwoSameString.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,22 +59,57 @@
     <session id="1092051380">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="165">
               <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3413" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_webapp_maven.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -83,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,12 +185,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../second_add_webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -158,28 +219,23 @@
       <option name="presentableId" value="Default" />
       <updated>1563180143670</updated>
       <workItem from="1563180146910" duration="993000" />
+      <workItem from="1564619096691" duration="70000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="993000" />
+    <option name="totallyTimeSpent" value="1063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -187,15 +243,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,9 +267,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3413" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_webapp_maven.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="165">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>

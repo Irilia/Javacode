@@ -170,7 +170,7 @@ public class TestBinaryTree2 {
         }
 
         //判断一棵树是否是完全二叉树 返回0代表是完全二叉树
-        int binaryTreeComplete(TreeNode root) {
+        /*int binaryTreeComplete(TreeNode root) {
             TreeNode cur = root;
             Queue<TreeNode> queue = new LinkedList<>();
             queue.offer(cur);
@@ -181,6 +181,6 @@ public class TestBinaryTree2 {
             while(!queue){
 
             }
-        }
+        }*/
     }
 }

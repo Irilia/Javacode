@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0eec9a1-0084-4ac5-8756-af08799acba3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AutoTest/Chapter8/Chapter8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoTest/Chapter8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoTest/Chapter8/src/main/java/com/irilia/httpcliebt/demo/MyHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python3/Python3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python3/Test_Python/Test_Python3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python3/Test_Python/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/enumtype/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/enumtype/GameType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/enumtype/TankType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/frame/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/frame/LevelPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/frame/LoginPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/frame/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/frame/MapEditorPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/frame/MapPreviewPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/main/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/model/Boom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/model/BotTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/model/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/model/DisplayableImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/model/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/model/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/src/com/irilia/model/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkTest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkTest/WorkTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkTest/src/com/irilia/ProxyPattern/ProxyPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatroom_websocket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JunitTest/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CommUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/abc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/bc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/bcc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/bh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/bj.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/ccb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/cib.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/cmb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/cmbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/dy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/gf.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/guangda.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/hx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/icbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/nanjing.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/ningbo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/pingan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/post.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/sfz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/sh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/shpd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/zheshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/bank_img/zx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/cart.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/059b5245-e3c8-43bf-80fe-700f0e4e68b8-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/4a51167a-89d5-4710-aca2-7c76edc355b8-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/51afeef5-f6cb-4936-abea-315cfca0edc0-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/54890cf9-91b0-40bc-9f68-51462e9c43a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/750a9ce8-8c19-444d-b8cc-f3e7e786ec5d-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/93b9e55f-cbae-4c3c-b2f7-2636c7369db7-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/adidas.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/beijirong.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPic13867cc1-935a-4a3a-98f9-edf87ddb1c09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPic372e7faa-3ad0-444d-a89b-a8e9f0d6e929.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPic4ed6edbf-fb3e-49a7-be5e-361b2ce02961.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPic5ab54f67-a479-48fe-a41d-7d34b57036a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPica5720219-ba48-460a-a084-24d5b314bd03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPica7e5d3dd-5984-4d0f-9851-35cc0987d9b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPicaa443d05-27b4-4964-958e-c81536f01d04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPicc1e3a29e-17f5-4d9f-a186-b2c5a0b39b88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPicd0459632-fe4e-4a5d-8373-1a67c9f43ec2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPice7c2e240-4147-4c11-b369-db3765ec3df9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bigPicee0785e3-68e2-4e23-93ef-68904bc2a3c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/captcha (2).jhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/captcha.jhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/common.css.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/common.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/dadonggua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/eifini.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/f37ba36a-181b-4161-a88f-f74c9adb485d-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/f5e39c37-94b2-462e-8e58-8bde3c5f1b8c-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/h.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/hengyuanxiang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/index_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/index_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/index_right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/index_top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/j.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/jackjones.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/jsbn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/lining.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/m.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/maoren.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/nike.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/o.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/product.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/bigPic139f030b-d68b-41dd-be6d-b94cc568d3c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/bigPic19533252-0faa-4e64-8077-6e1908f47739.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/bigPic1ea8f1c9-8b8e-4262-8ca9-690912434692.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/bigPic5f3622b8-028a-4e62-a77f-f41a16d715ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/logo1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/r___________renleipic_01/product.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/registImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/regist_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/semir.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/sentubila.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/septwolves.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/sundance.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/vimly.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/image/yishion.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/article.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/cart1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/common.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/dialog_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/finalbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/index.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/loading_bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/loading_icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/loginbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/member.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/message.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/order.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/password.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/product.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/register.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/review.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/images/title2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/bartlesvillecf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/emancipation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/okwu-athletics.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/okwu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/img/title2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/login.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/order_info.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/order_list.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/product_info.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/product_list.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs10010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs20010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs30010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs40011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs50010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs60010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/cs70010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/duanxue1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/duanxue2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/duanxue3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/duanxue4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/1/nvxie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/155210007679548_y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/562d008aN963ce5f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/5632bdf8N789e6659.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/5632c2eeNbc918af0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/90560009093007_y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/c_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/c_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/c_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/c_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/c_0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/c_0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/c_0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/dn1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/dn2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/big01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/middle01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/hao/small09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/news_left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/products/news_right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/register.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/com.irilia.Test_Python/Test_Python2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/python2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python2/python_test2/python_test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/Study_Python/HelloWord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/Study_Python/Study_Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_test/python_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoTest/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoTest/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongoDBProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDBProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TestThread/CallableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TestThread/CallableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TestThread/TestCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TestThread/TestCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TestThread/TicketsSell.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TestThread/TicketsSell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/daydata/DeleteTwoSameString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/src/BinaryTree/TestBinaryTree2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/src/BinaryTree/TestBinaryTree2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/src/TestThread/CallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/src/TestThread/CallableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/src/TestThread/SellTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/src/TestThread/SellTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../add_webapp_maven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../add_webapp_maven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../second_add_webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_add_webapp/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-637183631">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="249" />
+          <entry key="txt" value="8" />
+          <entry key="xml" value="114" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="249" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="XML" value="114" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+          <entry key="sql" value="2" />
+          <entry key="user" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="Scratch" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-737">
+              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/16a82088-96c6-4953-b288-63e832b4aee1/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://16a82088-96c6-4953-b288-63e832b4aee1/schema/jdbc_test/table/user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JunitTest/JDBCTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/CommUtilsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/16a82088-96c6-4953-b288-63e832b4aee1/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/test/CommUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JunitTest/JDBCTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/76694ae2-c312-4145-92f4-18002c7d3404/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="chatroom_websocket Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="chatroom_websocket Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1116" />
+    <option name="width" value="813" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chatroom_websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom_websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom_websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom_websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom_websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom_websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JunitTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatroom_websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565363888616" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="E:/测试课件/project/y2gwfn/miaosha_7" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="chatroom_websocket" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0eec9a1-0084-4ac5-8756-af08799acba3" name="Default Changelist" comment="" />
+      <created>1564922171598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564922171598</updated>
+      <workItem from="1564922175582" duration="2137000" />
+      <workItem from="1565228854713" duration="8433000" />
+      <workItem from="1565363226624" duration="662000" />
+      <workItem from="1565528209741" duration="2462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13694000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21849866" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.13941018" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="13" visible="true" weight="0.36452514" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.29959786" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="265" column="42" selection-start-line="265" selection-start-column="29" selection-end-line="265" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CommUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/76694ae2-c312-4145-92f4-18002c7d3404/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://16a82088-96c6-4953-b288-63e832b4aee1/schema/jdbc_test/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-737">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JunitTest/JDBCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/16a82088-96c6-4953-b288-63e832b4aee1/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
