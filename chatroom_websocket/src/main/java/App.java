@@ -1,3 +1,5 @@
+import com.irilia.util.CommUtils;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -5,6 +7,9 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
+        Properties properties = CommUtils.loadProperties("db.properties");
+        System.out.println(properties);
+        System.out.println(properties.getProperty("url"));
         // 1.加载驱动
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -12,9 +17,10 @@ public class App {
             e.printStackTrace();
         }
         // 2.获取连接
-        String url = "jdbc:mysql://localhost:3306/jdbc_test";
-        String username = "root";
-        String password = "998720";
+        Properties properties1 = CommUtils.loadProperties("db.properties");
+        String url = properties.getProperty("url");
+        String username = properties.getProperty("username");
+        String password = properties.getProperty("password");
         Connection connection = null;
         Statement statement = null;
         ResultSet rs = null;
@@ -25,6 +31,7 @@ public class App {
             // 3.执行SQL
             statement = connection.createStatement();
             String sqlStr = "SELECT * FROM user";
+            System.out.println(sqlStr);
             rs = statement.executeQuery(sqlStr);
             while (rs.next()) {
                 int id = rs.getInt("id");
@@ -45,9 +52,8 @@ public class App {
                 e.printStackTrace();
             }
         }
-
     }
-    public static Properties loadProperties(String fileName) {
+    /*public static Properties loadProperties(String fileName) {
         Properties properties = new Properties();
         // 将配置文件转为输入流
         InputStream in = CommUtils.class.getClassLoader()
@@ -59,6 +65,6 @@ public class App {
             e.printStackTrace();
         }
         return properties;
-    }
+    }*/
 
 }
