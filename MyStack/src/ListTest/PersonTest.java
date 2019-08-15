@@ -2,6 +2,8 @@ package ListTest;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Objects;
+
 class Person{
     private String name;
     private Integer age;
@@ -45,6 +47,11 @@ class Person{
         }
         Person per = (Person)obj;
         return this.age.equals(per.age)&&this.name.equals(per.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 }
 
