@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0eec9a1-0084-4ac5-8756-af08799acba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyStack/src/ListTest/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyStack/src/ListTest/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyStack/src/TypeUnit/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/dao/BasedDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserLogin.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/util/CommUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/main/resources/client/]C2L{C6~C(W1_DP76)C4F1S.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatroom_project/src/test/java/com/irilia/util/CommUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TypeUnit/MyArrayBasedOnLinkList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TypeUnit/MyArrayBasedOnLinkList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TypeUnit/MyArrayBasedOnLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TypeUnit/MyArrayBasedOnLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/src/ListTest/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/src/ListTest/TestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/src/TypeUnit/MyArrayBasedOnLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/src/TypeUnit/MyArrayBasedOnLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TypeUnit/MapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/out/production/MyStack/TypeUnit/MapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyStack/src/TypeUnit/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/src/TypeUnit/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatroom_websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chatroom_jdbcTest.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,17 +72,18 @@
     <session id="-637183631">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -79,7 +91,7 @@
           <entry key="cell" value="24" />
           <entry key="java" value="1649" />
           <entry key="properties" value="91" />
-          <entry key="sql" value="268" />
+          <entry key="sql" value="321" />
           <entry key="txt" value="36" />
           <entry key="xml" value="114" />
         </counts>
@@ -89,7 +101,7 @@
           <entry key="JAVA" value="1649" />
           <entry key="PLAIN_TEXT" value="36" />
           <entry key="Properties" value="91" />
-          <entry key="Scratch" value="292" />
+          <entry key="Scratch" value="345" />
           <entry key="XML" value="114" />
         </counts>
       </usages-collector>
@@ -122,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/45aa0567-5f95-4964-9ef9-81bd171b19ff/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -135,7 +147,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,16 +155,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/AbstractStringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/irilia/util/CommUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
@@ -204,13 +207,13 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/76694ae2-c312-4145-92f4-18002c7d3404/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0abb08ab-a908-48fc-a0dc-115a27e9f79f/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dac1031a-0476-4143-8742-3722b3f6b9a7/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/45aa0567-5f95-4964-9ef9-81bd171b19ff/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/JunitTest/JDBCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/irilia/util/CommUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/test/com/irilia/util/CommUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/irilia/JDBCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/45aa0567-5f95-4964-9ef9-81bd171b19ff/console.sql" />
       </list>
     </option>
   </component>
@@ -250,9 +253,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="570" />
-    <option name="y" value="60" />
-    <option name="width" value="980" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -261,41 +263,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,14 +275,50 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatroom_websocket" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatroom_websocket" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatroom_websocket" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatroom_websocket" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="chatroom_websocket" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatroom_websocket" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.irilia.util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565607533168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565921533548" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -345,7 +349,7 @@
   </component>
   <component name="RunManager" selected="JUnit.JDBCTest.updateTest">
     <configuration name="CommUtilsTest.loadProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chatroom_websocket" />
+      <module name="chatroom_jdbcTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.irilia.util.*" />
@@ -361,7 +365,7 @@
       </method>
     </configuration>
     <configuration name="JDBCTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chatroom_websocket" />
+      <module name="chatroom_jdbcTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.irilia.*" />
@@ -377,7 +381,7 @@
       </method>
     </configuration>
     <configuration name="JDBCTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chatroom_websocket" />
+      <module name="chatroom_jdbcTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.irilia.*" />
@@ -393,7 +397,7 @@
       </method>
     </configuration>
     <configuration name="JDBCTest.queryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chatroom_websocket" />
+      <module name="chatroom_jdbcTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.irilia.*" />
@@ -409,7 +413,7 @@
       </method>
     </configuration>
     <configuration name="JDBCTest.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chatroom_websocket" />
+      <module name="chatroom_jdbcTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.irilia.*" />
@@ -462,6 +466,8 @@
       <workItem from="1565852452775" duration="63000" />
       <workItem from="1565856955532" duration="161000" />
       <workItem from="1565857127735" duration="50000" />
+      <workItem from="1565919835602" duration="1655000" />
+      <workItem from="1565924527565" duration="885000" />
     </task>
     <servers />
   </component>
@@ -498,13 +504,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29818000" />
+    <option name="totallyTimeSpent" value="32358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16823056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3538874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -533,7 +538,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
       <window_info anchor="right" id="SciView" order="6" />
-      <window_info active="true" anchor="right" id="Database" order="7" visible="true" weight="0.29959786" />
+      <window_info anchor="right" id="Database" order="7" weight="0.29959786" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -616,10 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+    <entry file="das://45aa0567-5f95-4964-9ef9-81bd171b19ff/schema/jdbc_test/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -627,6 +632,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/45aa0567-5f95-4964-9ef9-81bd171b19ff/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -647,34 +666,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/irilia/util/CommUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://45aa0567-5f95-4964-9ef9-81bd171b19ff/schema/jdbc_test/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/45aa0567-5f95-4964-9ef9-81bd171b19ff/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/irilia/util/CommUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="57">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
