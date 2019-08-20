@@ -1,7 +1,7 @@
-package com.irilia;
+package com.irilia.cases;
 
 //指示器
-public interface Case {
+public interface Cases {
     void quickSort(int[] a);
     void mergeSort(int[] a);
     void testQuickSort();

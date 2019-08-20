@@ -1,14 +1,14 @@
 package com.irilia.cases;
 
-import com.irilia.Case;
 import com.irilia.annotations.BenchMark;
 import com.irilia.annotations.Measurement;
+import com.irilia.annotations.WarmUp;
 
 import java.util.Arrays;
 import java.util.Random;
 
 @Measurement(iterations = 10,group = 3)
-public class SortCase implements Case {
+public class SortCase implements Cases {
     //快速排序（三数取中）
     public void quickSort(int[] a) {
         quickSortInternal(a,0,a.length-1);
@@ -96,6 +96,7 @@ public class SortCase implements Case {
     * 4.TODO：自己实现并发排序（利用多线程里的ForkJoin）和Arrays.parallelSort()对比
     * */
     @BenchMark
+    @WarmUp(iterations = 200)
     public void testQuickSort(){
         int[] a = new int[100000];
         Random random = new Random(20190713);

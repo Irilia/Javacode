@@ -10,5 +10,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)//针对运行时注解
 @Target(ElementType.METHOD)//目标注解：只修饰方法的注解
 public @interface BenchMark {
+    //被BenchMark标记的方法是需要测试的方法
 
 }
