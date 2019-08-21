@@ -3,12 +3,15 @@ package com.irilia.util;
 
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 //封装所有的共有方法：加载资源文件，json操作
 public class CommUtil {
+    //创建一个gson对象
+    private static final Gson GSON = new GsonBuilder().create();
     //加载资源文件：url，jdbc驱动
     public static Properties loadProperties(String fileName){
         Properties properties = new Properties();
@@ -33,7 +36,7 @@ public class CommUtil {
         return gson.toJson(obj);
     }
 
-    //将json字符串反序列化为对象
+    //将json字符串反序列化为对象:得知道要反序列化的对象，和要反序列化为什么类型的对象，所以要得到这个类的反射对象
     public static Object jsonToObject(String Jsonstr,Class objClz){
         Gson gson = new Gson();
         return gson.fromJson(Jsonstr,objClz);
