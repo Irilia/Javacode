@@ -15,9 +15,9 @@ import java.util.Set;
 
 public class CreateGroupGUI {
     private JPanel createCroupPanel;
+    private JPanel FriendLablePanel;
     private JTextField groupNameTest;
     private JButton conformBtn;
-    private JPanel friendLabelPanel;
     //在线好友
     private Set<String> friends;
     private String myName;
@@ -25,25 +25,25 @@ public class CreateGroupGUI {
     //好友列表
     private FriendList friendList;
 
-    public CreateGroupGUI(Set<String> friend,String myName,ConnecteToServer connecteToServer,FriendList friendList){
+    public CreateGroupGUI(Set<String> friends,String myName,ConnecteToServer connecteToServer,FriendList friendList){
         this.friends = friends;
         this.myName = myName;
         this.connecteToServer = connecteToServer;
         this.friendList = friendList;
         JFrame frame = new JFrame("创建群组");
         frame.setContentPane(createCroupPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         //1.动态的添加checkBox
         //设置布局为垂直展示
-        friendLabelPanel.setLayout(new BoxLayout(friendLabelPanel,BoxLayout.Y_AXIS));
+        FriendLablePanel.setLayout(new BoxLayout(FriendLablePanel,BoxLayout.Y_AXIS));
         Iterator<String> iterator = friends.iterator();
         while(iterator.hasNext()){
             String labelName = iterator.next();
             JCheckBox checkBox = new JCheckBox(labelName);
-            friendLabelPanel.add(checkBox);
+            FriendLablePanel.add(checkBox);
         }
 
         //2.提交信息按键
@@ -54,7 +54,7 @@ public class CreateGroupGUI {
                 //2.获取选中的好友名称
                 Set<String> selectedFriends = new HashSet<>();
                 //3.获取checkBoxPanel下的所有组件
-                Component[] components = friendLabelPanel.getComponents();
+                Component[] components = FriendLablePanel.getComponents();
                 for(Component component : components){
                     //向下转型
                     JCheckBox checkBox = (JCheckBox) component;

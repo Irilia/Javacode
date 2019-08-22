@@ -7,51 +7,207 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3697f589-fe20-4c5a-a348-5a20acf6e212" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/BenchMark.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/MainFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/CaseLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/TestDome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/annotations/BenchMark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/annotations/Measurement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/annotations/WarmUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BenchMark/src/main/java/com/irilia/cases/SortCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/Dynamic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dynamic/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python3/Python3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python3/Test_Python/Test_Python3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cookie_sessionDevelop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2/com.irilia.Test_Python/Test_Python2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2/python2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python2/python_test2/python_test2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_test/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_test/Study_Python/HelloWord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_test/Study_Python/Study_Python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_test/python_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongoDBProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDBProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyStack/out/production/MyStack/daydata/DeleteTwoSameString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../add_webapp_maven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../add_webapp_maven/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/.idea/artifacts/Student_System.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/Student_System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/js/outlook2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/js/validateExtends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/datalist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/filebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/numberbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/textbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/2012080412263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/asterisk_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/basket_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/book_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/book_open_mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/book_previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/chart_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/door_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/find.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/folder_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/large_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/large_clipart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/large_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/large_shapes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/large_smartart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/note.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/pencil_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/text_list_bullets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/text_list_numbers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/user_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/user_gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/user_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/vcard_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/world.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/world_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/world_night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/icons/zoom_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/easyui/themes/locale/easyui-lang-zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/css/H-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/css/H-ui.login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/css/H-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/acrossTab-2bak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/acrossTab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/acrossTab-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/acrossTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/admin-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/admin-loginform-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/gq/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/gq/cn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/gq/gj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/gq/us.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/hamburger-retina.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/hamburger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/icon-add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/icon_error_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/icon_jt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/icon_right_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/icon_warning_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/loading_072.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/totop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/js/H-ui.admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/js/H-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/Hui-iconfont/1.0.1/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/Hui-iconfont/1.0.1/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/Hui-iconfont/1.0.1/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/Hui-iconfont/1.0.1/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/Hui-iconfont/1.0.1/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/Hui-iconfont/1.0.1/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/icheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/jquery.icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/minimal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/minimal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/icheck/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/jquery/1.9.1/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/lib/jquery/1.9.1/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/skin/default/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/skin/default/acrossTab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/skin/default/acrossTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/skin/default/icon_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/h-ui/skin/default/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Student_System/src/main/webapp/view/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_chatroom/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_ManageSystem/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_ManageSystem/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_ManageSystem/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_ManageSystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_ManageSystem/Student_ManageSystem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student_ManageSystem/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserLogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserLogin.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserReg.form" beforeDir="false" afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserReg.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserReg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chatroom_project/src/main/java/com/irilia/client/service/UserReg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_chatroom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_chatroom/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,13 +222,13 @@
     <session id="-64407845">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,16 +270,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
+            <state relative-caret-position="1045">
               <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/irilia/servlet/MyFirstServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="266">
               <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,7 +291,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/irilia/xml/write/Demo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
+            <state relative-caret-position="66">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -144,11 +300,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -156,8 +312,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="399">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -246,8 +402,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,30 +425,6 @@
               <item name="second_add_webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_add_webapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_add_webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_add_webapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_add_webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="irilia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_add_webapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_add_webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,6 +439,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,14 +634,16 @@
       <workItem from="1563346930931" duration="3612000" />
       <workItem from="1563424093037" duration="5093000" />
       <workItem from="1564619170256" duration="599000" />
+      <workItem from="1566111731075" duration="1501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26970000" />
+    <option name="totallyTimeSpent" value="28471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -517,7 +651,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16689008" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1689008" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
@@ -527,13 +661,12 @@
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3297587" />
-      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.3297587" />
       <window_info anchor="right" id="Database" order="2" />
@@ -543,6 +676,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,24 +751,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
+        <state relative-caret-position="1045">
           <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/irilia/servlet/MyFirstServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/irilia/xml/write/Demo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
+        <state relative-caret-position="66">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -642,17 +780,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/irilia/servlet/MyFirstServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="266">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
