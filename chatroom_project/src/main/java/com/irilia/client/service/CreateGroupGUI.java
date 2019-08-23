@@ -47,6 +47,7 @@ public class CreateGroupGUI {
         }
 
         //2.提交信息按键
+
         conformBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -90,6 +91,4 @@ public class CreateGroupGUI {
             }
         });
     }
-
-
 }
