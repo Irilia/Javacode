@@ -1,5 +1,5 @@
 package com.irilia.client.vo;
-//服务端与客户端通信载体
+//服务端与客户端通信载体协议
 public class MessageVo {
     //告知服务端要进行的操作：
     //1.表示新用户的注册

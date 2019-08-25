@@ -28,8 +28,8 @@ public class FriendList {
 
     //缓存所有的私聊界面map<私聊的对象名称，私聊界面>
     private Map<String,PrivateChatGUI> privateChatGUIMap = new ConcurrentHashMap<>();
-    //客户端缓存所有群聊信息
-    private Map<String,Set<String>> groupInfo = new ConcurrentHashMap<>();
+    //缓存当前客户端所有群名称
+    private Map<String,Set<String>> groupNameList = new ConcurrentHashMap<>();
     //缓存当前客户端群聊界面
     private Map<String,GroupChatGUI> groupChatGUIMap = new ConcurrentHashMap<>();
     //后台线程
@@ -76,7 +76,7 @@ public class FriendList {
                             String senderName = messageVoFromClient.getContent().split("-")[0];
                             String groupMsg = messageVoFromClient.getContent().split("-")[1];
                             String groupName = messageVoFromClient.getTo().split("-")[0];
-                            if(groupInfo.containsKey(groupName)){
+                            if(groupNameList.containsKey(groupName)){
                                 //判断一下界面存不存在
                                 if(groupChatGUIMap.containsKey(groupName)){
                                     GroupChatGUI groupChatGUI = groupChatGUIMap.get(groupName);
@@ -84,7 +84,7 @@ public class FriendList {
                                     groupChatGUI.readFormServer(senderName+"说："+groupMsg+"\n");
                                 }else{
                                     //没有界面，创建界面
-                                    Set<String> friends = groupInfo.get(groupName);
+                                    Set<String> friends = groupNameList.get(groupName);
                                     GroupChatGUI groupChatGUI = new GroupChatGUI(groupName,friends,connecteToServer,myName);
                                     //添加到缓存中
                                     groupChatGUIMap.put(groupName,groupChatGUI);
@@ -95,6 +95,7 @@ public class FriendList {
                                 Set<String> friends = (Set<String>) CommUtil.
                                         jsonToObject(messageVoFromClient.getTo().split("-")[1],Set.class);
                                 addGroupInfo(groupName,friends);
+                                //刷新群信息
                                 reloadGroupList();
                                 //2.没有群聊界面，new一个
                                 GroupChatGUI groupChatGUI = new GroupChatGUI(groupName,friends,connecteToServer,myName);
@@ -167,7 +168,7 @@ public class FriendList {
                 GroupChatGUI groupChatGUI = groupChatGUIMap.get(groupName);
                 groupChatGUI.getFrame().setVisible(true);
             }else{
-                Set<String> friends = groupInfo.get(groupName);
+                Set<String> friends = groupNameList.get(groupName);
                 GroupChatGUI groupChatGUI = new GroupChatGUI(groupName,friends,connecteToServer,myName);
                 groupChatGUIMap.put(groupName,groupChatGUI);
             }
@@ -234,7 +235,7 @@ public class FriendList {
         friendLablePanel.setLayout(new BoxLayout(friendLablePanel,BoxLayout.Y_AXIS));
         int i = 0;
         while(iterator.hasNext()){
-            //创建好所欲标签并设置好了名字
+            //创建好所有标签并设置好了名字
             String labelName = iterator.next();
             labels[i] = new JLabel(labelName);
             //给每个标签附加按钮的点击事件
@@ -252,25 +253,45 @@ public class FriendList {
     //刷新群聊列表的群聊信息
     //保存了多少个群就遍历多少次
     public void reloadGroupList(){
-        JPanel jPanel = new JPanel();
+        /*JPanel jPanel = new JPanel();
         jPanel.setLayout(new BoxLayout(jPanel,BoxLayout.Y_AXIS));
         Set<String> groupNames = groupInfo.keySet();
         Iterator<String> iterator = groupNames.iterator();
         while(iterator.hasNext()){
             String groupName = iterator.next();
             JLabel label = new JLabel(groupName);
-            label.addMouseListener(new GroupLabelAction(groupName));
+            //label.addMouseListener(new GroupLabelAction(groupName));
             jPanel.add(label);
         }
         groupPanel.setViewportView(jPanel);
         //设置滚动方式为垂直滚动
+        groupPanel.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        groupPanel.revalidate();*/
+        // 存储所有群名称标签Jpanel
+        JPanel groupNamePanel = new JPanel();
+        groupNamePanel.setLayout(new BoxLayout(groupNamePanel,
+                BoxLayout.Y_AXIS));
+        JLabel[] labels = new JLabel[groupNameList.size()];
+        // Map遍历
+        Set<Map.Entry<String,Set<String>>> entries = groupNameList.entrySet();
+        Iterator<Map.Entry<String,Set<String>>> iterator =
+                entries.iterator();
+        int i = 0;
+        while (iterator.hasNext()) {
+            Map.Entry<String,Set<String>> entry = iterator.next();
+            labels[i] = new JLabel(entry.getKey());
+            labels[i].addMouseListener(new GroupLabelAction(entry.getKey()));
+            groupNamePanel.add(labels[i]);
+            i++;
+        }
+        groupPanel.setViewportView(groupNamePanel);
         groupPanel.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         groupPanel.revalidate();
     }
 
     //点击按钮之后有添加，添加方法
     public void addGroupInfo(String groupName,Set<String> friends){
-        groupInfo.put(groupName,friends);
+        groupNameList.put(groupName,friends);
     }
 
 

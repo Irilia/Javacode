@@ -45,6 +45,7 @@ public class CreateGroupGUI {
             JCheckBox checkBox = new JCheckBox(labelName);
             FriendLablePanel.add(checkBox);
         }
+        FriendLablePanel.revalidate();
 
         //2.提交信息按键
 
@@ -52,9 +53,10 @@ public class CreateGroupGUI {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //1.获取群名称
+                String groupName = groupNameTest.getText();
                 //2.获取选中的好友名称
                 Set<String> selectedFriends = new HashSet<>();
-                //3.获取checkBoxPanel下的所有组件
+                //3.获取checkBoxPanel下的所有组件(所有的父类)
                 Component[] components = FriendLablePanel.getComponents();
                 for(Component component : components){
                     //向下转型
@@ -62,15 +64,17 @@ public class CreateGroupGUI {
                     //如果被勾选了
                     if(checkBox.isSelected()){
                         String labelName = checkBox.getText();
-                        selectedFriends.add(checkBox.getText());
+                        selectedFriends.add(labelName);
                     }
                 }
+                //将自己加上
                 selectedFriends.add(myName);
-                String groupName = groupNameTest.getText();
+                //String groupName = groupNameTest.getText();
                 //4.将群名称与选择的好友发送到服务端
                 //type:3注册群
                 //content:groupName
                 //to:[]群里包含了呢些人
+                //发到服务端
                 MessageVo messageVo = new MessageVo();
                 messageVo.setType(3);
                 messageVo.setContent(groupName);
@@ -86,7 +90,8 @@ public class CreateGroupGUI {
                 frame.setVisible(false);
                 //返回好友列表界面，展示当前群名
                 friendList.addGroupInfo(groupName,selectedFriends);
-                friendList.reloadFriendList();
+                //刷新
+                friendList.reloadGroupList();
 
             }
         });

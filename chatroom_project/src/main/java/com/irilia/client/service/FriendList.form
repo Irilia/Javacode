@@ -58,7 +58,14 @@
         </constraints>
         <properties/>
         <border type="none"/>
-        <children/>
+        <children>
+          <scrollpane id="8389f">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </scrollpane>
+        </children>
       </scrollpane>
     </children>
   </grid>
