@@ -37,22 +37,27 @@ public class UserReg {
                 String userName = userNametext.getText();
                 String passWord = String.valueOf(passwordTest.getPassword());
                 String brief = briefText.getText();
-                //2.调用dao层方法，将信息持久化到数据库
-                User user  = new User();
-                user.setUserName(userName);
-                user.setPassword(passWord);
-                user.setBrief(brief);
-                System.out.println(user);
-                //如果注册成功，弹出提示框，提示用户信息注册成功，返回登录界面
-                //如果注册失败，弹出提示框告知用户注册失败，保留当前注册页面
-                if(accountDao.userReg(user)){
-                    JOptionPane.showMessageDialog(null,"注册成功",
-                            "成功信息",JOptionPane.INFORMATION_MESSAGE);
-                    //提示完后提示框消失，置为false
-                    frame.setVisible(false);
-                }else{
-                    JOptionPane.showMessageDialog(null,"注册失败","错误信息", JOptionPane.ERROR_MESSAGE);
-
+                if(userName == null ||userName.length() == 0||passWord == null || passWord.length() == 0){
+                    JOptionPane.showMessageDialog(null,
+                            "注册失败","错误信息", JOptionPane.ERROR_MESSAGE);
+                }else {
+                    //2.调用dao层方法，将信息持久化到数据库
+                    User user  = new User();
+                    user.setUserName(userName);
+                    user.setPassword(passWord);
+                    user.setBrief(brief);
+                    System.out.println(user);
+                    //如果注册成功，弹出提示框，提示用户信息注册成功，返回登录界面
+                    //如果注册失败，弹出提示框告知用户注册失败，保留当前注册页面
+                    if(accountDao.userReg(user)){
+                        JOptionPane.showMessageDialog(null,"注册成功",
+                                "成功信息",JOptionPane.INFORMATION_MESSAGE);
+                        //提示完后提示框消失，置为false
+                        frame.setVisible(false);
+                    }else{
+                        JOptionPane.showMessageDialog(null,
+                                "注册失败","错误信息", JOptionPane.ERROR_MESSAGE);
+                    }
                 }
             }
         });
